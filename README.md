@@ -52,6 +52,9 @@ The template method pattern is a behavioral design pattern and is used to create
 ### Observer
 An observer design pattern is useful when you are interested in the state of an Object and want to get notified whenever there is any change. In the observer pattern, the Object that watches the state of another Object is called observer, and the Object that is being watched is called subject.
 
+### Iterator
+The iterator pattern is one of the behavioral patterns and is used to provide a standard way to traverse through a group of objects
+
 ## Miscellaneous
 ### DAO
 The Data Access Object (DAO) design pattern is used to decouple the data persistence logic to a separate layer. DAO is a very popular pattern when we design systems to work with databases. The idea is to keep the service layer separate from the data access layer. This way we implement the separation of logic in our application.

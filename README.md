@@ -61,6 +61,9 @@ The chain of responsibility pattern is used to achieve loose-coupling in softwar
 ### Iterator
 The iterator pattern is one of the behavioral patterns and is used to provide a standard way to traverse through a group of objects
 
+### Strategy
+We define multiple algorithms and let client application pass the algorithm to be used as a parameter. One of the best example of strategy pattern is <code>Collections.sort()</code> method that takes Comparator parameter.
+
 ## Miscellaneous
 ### DAO
 The Data Access Object (DAO) design pattern is used to decouple the data persistence logic to a separate layer. DAO is a very popular pattern when we design systems to work with databases. The idea is to keep the service layer separate from the data access layer. This way we implement the separation of logic in our application.

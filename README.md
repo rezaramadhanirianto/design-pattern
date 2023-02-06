@@ -13,6 +13,7 @@ The factory design pattern is used when we have a superclass with multiple sub-c
 Same function as factory pattern but the difference is how we check subclass, in abstract we have subclasses factory respectively.
 
 ### Builder
+Builder pattern was introduced to solve some of the problems with Factory and Abstract Factory design patterns when the Object contains a lot of attributes.
 
 ## References
 - https://www.digitalocean.com/community/tutorials/java-design-patterns-example-tutorial

@@ -73,6 +73,9 @@ The command pattern is used to implement loose-coupling in a request-response mo
 ### Visitor
 The visitor pattern is used when we have to perform an operation on a group of similar kinds of objects. With the help of a visitor pattern, we can move the operational logic from the objects to another class.
 
+### Memento
+The memento design pattern is used when we want to save the state of an object so that we can restore it later on.
+
 ## Miscellaneous
 ### DAO
 The Data Access Object (DAO) design pattern is used to decouple the data persistence logic to a separate layer. DAO is a very popular pattern when we design systems to work with databases. The idea is to keep the service layer separate from the data access layer. This way we implement the separation of logic in our application.

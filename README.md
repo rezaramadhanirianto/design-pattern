@@ -28,6 +28,9 @@ The adapter design pattern is one of the structural design patterns and is used 
 ### Composite
 The composite pattern is used when we have to represent a part-whole hierarchy. When we need to create a structure in a way that the objects in the structure have to be treated the same way, we can apply the composite design pattern. for the example if we have some shapes like circle, triangle etc, and we want to change color all shapes, we can use composite pattern.
 
+### Proxy
+The proxy pattern provides a placeholder for another Object to control access to it. This pattern is used when we want to provide controlled access to functionality.
+
 ### Flyweight
 The flyweight design pattern is used when we need to create a lot of Objects of a Class. Since every Object consumes memory space that can be crucial for low-memory devices (such as mobile devices or embedded systems), the flyweight design pattern can be applied to reduce the load on memory by sharing Objects. Example: <code>String pool</code>
 

@@ -34,5 +34,8 @@ The proxy pattern provides a placeholder for another Object to control access to
 ### Flyweight
 The flyweight design pattern is used when we need to create a lot of Objects of a Class. Since every Object consumes memory space that can be crucial for low-memory devices (such as mobile devices or embedded systems), the flyweight design pattern can be applied to reduce the load on memory by sharing Objects. Example: <code>String pool</code>
 
+### Facade
+The facade pattern is used to help client applications easily interact with the system.
+
 ## References
 - https://www.digitalocean.com/community/tutorials/java-design-patterns-example-tutorial

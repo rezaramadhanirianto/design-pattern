@@ -55,6 +55,9 @@ The mediator design pattern is used to provide a centralized communication mediu
 ### Observer
 An observer design pattern is useful when you are interested in the state of an Object and want to get notified whenever there is any change. In the observer pattern, the Object that watches the state of another Object is called observer, and the Object that is being watched is called subject.
 
+### Chain Responsibility
+The chain of responsibility pattern is used to achieve loose-coupling in software design where a request from the client is passed to a chain of objects to process them. Then the object in the chain will decide who will be processing the request and whether the request is required to be sent to the next object in the chain or not.
+
 ### Iterator
 The iterator pattern is one of the behavioral patterns and is used to provide a standard way to traverse through a group of objects
 

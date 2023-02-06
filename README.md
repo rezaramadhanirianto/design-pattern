@@ -67,6 +67,9 @@ We define multiple algorithms and let client application pass the algorithm to b
 ### State
 The state design pattern is used when an Object changes its behavior based on its internal state. If we have to change the behavior of an Object based on its state, we can have a state variable in the Object and use if-else condition block to perform different actions based on the state.
 
+### Command
+The command pattern is used to implement loose-coupling in a request-response model. In this pattern, the request is sent to the invoker and the invoker passes it to the encapsulated command object. The command object passes the request to the appropriate method of receiver to perform the specific action.
+
 ## Miscellaneous
 ### DAO
 The Data Access Object (DAO) design pattern is used to decouple the data persistence logic to a separate layer. DAO is a very popular pattern when we design systems to work with databases. The idea is to keep the service layer separate from the data access layer. This way we implement the separation of logic in our application.

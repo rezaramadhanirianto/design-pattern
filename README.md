@@ -37,5 +37,8 @@ The flyweight design pattern is used when we need to create a lot of Objects of 
 ### Facade
 The facade pattern is used to help client applications easily interact with the system.
 
+### Bridge
+When we have interface hierarchies in both interfaces as well as implementations, then the bridge design pattern is used to decouple the interfaces from the implementation and to hide the implementation details from the client programs.
+
 ## References
 - https://www.digitalocean.com/community/tutorials/java-design-patterns-example-tutorial

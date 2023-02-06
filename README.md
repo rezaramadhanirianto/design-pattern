@@ -43,8 +43,13 @@ When we have interface hierarchies in both interfaces as well as implementations
 ### Decorator
 The decorator design pattern is used to modify the functionality of an object at runtime. At the same time, other instances of the same class will not be affected by this, so the individual object gets the modified behavior.
 
-## Miscellaneous
+## Behavioral
+Behavioral patterns provide a solution for better interaction between objects and how to provide loose-coupling and flexibility to extend easily.
 
+### Template Method
+The template method pattern is a behavioral design pattern and is used to create a method stub and to defer some of the steps of implementation to the subclasses. The template method defines the steps to execute an algorithm, and it can provide a default implementation that might be common for all or some of the subclasses.
+
+## Miscellaneous
 ### DAO
 The Data Access Object (DAO) design pattern is used to decouple the data persistence logic to a separate layer. DAO is a very popular pattern when we design systems to work with databases. The idea is to keep the service layer separate from the data access layer. This way we implement the separation of logic in our application.
 

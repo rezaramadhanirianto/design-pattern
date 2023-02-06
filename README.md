@@ -45,6 +45,9 @@ The decorator design pattern is used to modify the functionality of an object at
 
 ## Miscellaneous
 
+### DAO
+The Data Access Object (DAO) design pattern is used to decouple the data persistence logic to a separate layer. DAO is a very popular pattern when we design systems to work with databases. The idea is to keep the service layer separate from the data access layer. This way we implement the separation of logic in our application.
+
 ### Dependency Injection
 The dependency injection pattern allows us to remove the hard-coded dependencies and make our application loosely-coupled, extendable, and maintainable. We can implement dependency injection in Java to move the dependency resolution from compile-time to runtime.
 

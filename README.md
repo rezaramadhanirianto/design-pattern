@@ -43,5 +43,10 @@ When we have interface hierarchies in both interfaces as well as implementations
 ### Decorator
 The decorator design pattern is used to modify the functionality of an object at runtime. At the same time, other instances of the same class will not be affected by this, so the individual object gets the modified behavior.
 
+## Miscellaneous
+
+### Dependency Injection
+The dependency injection pattern allows us to remove the hard-coded dependencies and make our application loosely-coupled, extendable, and maintainable. We can implement dependency injection in Java to move the dependency resolution from compile-time to runtime.
+
 ## References
 - https://www.digitalocean.com/community/tutorials/java-design-patterns-example-tutorial

@@ -64,6 +64,9 @@ The iterator pattern is one of the behavioral patterns and is used to provide a 
 ### Strategy
 We define multiple algorithms and let client application pass the algorithm to be used as a parameter. One of the best example of strategy pattern is <code>Collections.sort()</code> method that takes Comparator parameter.
 
+### State
+The state design pattern is used when an Object changes its behavior based on its internal state. If we have to change the behavior of an Object based on its state, we can have a state variable in the Object and use if-else condition block to perform different actions based on the state.
+
 ## Miscellaneous
 ### DAO
 The Data Access Object (DAO) design pattern is used to decouple the data persistence logic to a separate layer. DAO is a very popular pattern when we design systems to work with databases. The idea is to keep the service layer separate from the data access layer. This way we implement the separation of logic in our application.

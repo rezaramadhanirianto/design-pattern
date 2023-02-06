@@ -76,6 +76,9 @@ The visitor pattern is used when we have to perform an operation on a group of s
 ### Memento
 The memento design pattern is used when we want to save the state of an object so that we can restore it later on.
 
+### Interpreter
+Interpreter pattern provides a way to evaluate language grammar or expression.
+
 ## Miscellaneous
 ### DAO
 The Data Access Object (DAO) design pattern is used to decouple the data persistence logic to a separate layer. DAO is a very popular pattern when we design systems to work with databases. The idea is to keep the service layer separate from the data access layer. This way we implement the separation of logic in our application.

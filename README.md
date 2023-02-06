@@ -25,5 +25,8 @@ Structural design patterns provide different ways to create a Class structure (f
 ### Adapter
 The adapter design pattern is one of the structural design patterns and is used so that two unrelated interfaces can work together.
 
+### Composite
+The composite pattern is used when we have to represent a part-whole hierarchy. When we need to create a structure in a way that the objects in the structure have to be treated the same way, we can apply the composite design pattern. for the example if we have some shapes like circle, triangle etc, and we want to change color all shapes, we can use composite pattern.
+
 ## References
 - https://www.digitalocean.com/community/tutorials/java-design-patterns-example-tutorial

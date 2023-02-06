@@ -40,5 +40,8 @@ The facade pattern is used to help client applications easily interact with the 
 ### Bridge
 When we have interface hierarchies in both interfaces as well as implementations, then the bridge design pattern is used to decouple the interfaces from the implementation and to hide the implementation details from the client programs.
 
+### Decorator
+The decorator design pattern is used to modify the functionality of an object at runtime. At the same time, other instances of the same class will not be affected by this, so the individual object gets the modified behavior.
+
 ## References
 - https://www.digitalocean.com/community/tutorials/java-design-patterns-example-tutorial
